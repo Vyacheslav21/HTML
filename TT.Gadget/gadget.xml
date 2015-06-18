@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>Список ТТ</name>
+  <version>1.0</version>
+   <author name="Gontar">
+   </author>
+  <copyright>Gontar© 2014</copyright>
+  <description>Гаджет - РТТ</description>
+   <icons>
+    <!-- Иконка гаджета -->
+    <icon width="128" height="128" src="icon.png" />
+  </icons>
+ 
+  <hosts>
+    <host name="sidebar">
+    <autoscaleDPI>true</autoscaleDPI>
+    <base type="HTML" apiVersion="1.0.0" src="TT.html" />
+    <permissions>full</permissions>
+    <platform minPlatformVersion="1.0" />
+    </host>
+  </hosts>
+</gadget>

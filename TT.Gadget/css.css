@@ -1,0 +1,97 @@
+﻿/*body{ margin-top: 5mm }*/
+
+a{
+color:black;
+text-decoration:none; 
+font-weight: normal;
+font:8pt Arial;
+    -webkit-animation: flicking 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    animation: flicking 2s infinity;
+    animation-iteration-count: infinite;
+}
+
+a.bd { font-weight: bold; }
+			
+a:hover {color:#6A59EE;text-decoration:none;}
+			
+li{list-style-type: none; 
+line-height:1.2;
+padding-top:0.2;
+padding-bottom:0.2;
+    -webkit-animation: flicking 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    animation: flicking 2s infinity;
+    animation-iteration-count: infinite;
+}
+			
+ul {
+margin-top: 0.5; /* Отступ сверху */
+margin-bottom: 0.5; /* Отступ снизу */    
+margin-left: 23;
+    -webkit-animation: flicking 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    animation: flicking 2s infinity;
+    animation-iteration-count: infinite;
+	
+}
+			
+.stl {
+width:220px;
+height:400px;
+overflow-y:auto;
+overflow-x:hidden;
+/*font:8pt Arial;*/
+color:Black;
+background-color:#CFCFCF;
+border-top-right-radius:10px;
+    -webkit-animation: flicking 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    animation: flicking 2s infinity;
+    animation-iteration-count: infinite;
+} 
+
+
+
+.radius {
+    background: #f0f0f0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 5px; /* Поля вокруг текста */
+    margin-bottom: 5px; /* Отступ снизу */
+	overflow-y: scroll;
+	overflow-x: hidden;
+   }
+   
+			
+.h { display:none }
+
+#rad{
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	-ms-border-radius: 7px 7px 7px 7px;
+	-o-border-radius: 7px 7px 7px 7px;
+	-khtml-border-radius: 7px 7px 7px 7px;
+}
+
+body /* Выбираем тэг body*/
+ {
+        margin:3px;/*Отступы*/
+        padding:3px;/*Отступ контента от границ*/
+        background:#CFCFCF;
+        color:black;/*Цвет текста*/
+        border:1px solid black;/*Сборное правило для бордюра*/
+       /* box-shadow:3px 3px 3px blue; И правило для тени*/     
+		overflow-y:auto;
+		overflow-x:hidden;
+		/*width:220px;*/
+		/*height:400px;*/
+		border-radius: 7px 7px 7px 7px;/*Добавим радиус*/
+		-moz-border-radius: 7px 7px 7px 7px;
+		-webkit-border-radius: 7px 7px 7px 7px;
+		-ms-border-radius: 7px 7px 7px 7px;
+		-o-border-radius: 7px 7px 7px 7px;
+		-khtml-border-radius: 7px 7px 7px 7px;
+	
+}
+	
